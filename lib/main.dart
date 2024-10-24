@@ -14,6 +14,7 @@ class MainApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: const HomePage(),
         theme: ThemeData(
-            tabBarTheme: const TabBarTheme(indicatorColor: Colors.pink)));
+          tabBarTheme: const TabBarTheme(indicatorColor: Colors.pink),
+        ));
   }
 }
